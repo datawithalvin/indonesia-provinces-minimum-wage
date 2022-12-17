@@ -1,0 +1,783 @@
+Provinsi,Tahun,UpahMinimumProvinsi
+Papua,2000,315000
+DI. Yogyakarta,2000,194500
+Jawa Tengah,2000,185000
+Jawa Barat,2000,230000
+DKI Jakarta,2000,286000
+Kepulauan Riau,2000,300000
+Bangka Belitung,2000,190000
+Jawa Timur,2000,214500
+Lampung,2000,192000
+Sumatera Selatan,2000,190000
+Jambi,2000,173000
+Riau,2000,250700
+Sumatera Barat,2000,200000
+Sumatera Utara,2000,254000
+Aceh,2000,265000
+Bengkulu,2000,173000
+Banten,2000,230000
+Papua Barat,2000,0
+Nusa Tenggara Barat,2000,180000
+Maluku Utara,2000,180000
+Maluku,2000,180000
+Sulawesi Barat,2000,0
+Gorontalo,2000,186000
+Sulawesi Tenggara,2000,210000
+Sulawesi Selatan,2000,200000
+Sulawesi Tengah,2000,203000
+Bali,2000,214000
+Kalimantan Utara,2000,0
+Kalimantan Timur,2000,233000
+Kalimantan Selatan,2000,200000
+Kalimantan Tengah,2000,285000
+Kalimantan Barat,2000,228000
+Nusa Tenggara Timur,2000,184000
+Sulawesi Utara,2000,186000
+DI. Yogyakarta,2001,237500
+Jawa Tengah,2001,245000
+Jawa Barat,2001,245000
+DKI Jakarta,2001,426300
+Kepulauan Riau,2001,421500
+Bangka Belitung,2001,255000
+Lampung,2001,240000
+Jambi,2001,245000
+Sumatera Selatan,2001,255000
+Riau,2001,329000
+Sumatera Barat,2001,250000
+Sumatera Utara,2001,340500
+Aceh,2001,300000
+Jawa Timur,2001,220000
+Bengkulu,2001,240000
+Banten,2001,245000
+Bali,2001,309800
+Nusa Tenggara Barat,2001,240000
+Papua Barat,2001,0
+Maluku Utara,2001,230000
+Maluku,2001,230000
+Sulawesi Barat,2001,0
+Gorontalo,2001,372000
+Sulawesi Tenggara,2001,275000
+Sulawesi Selatan,2001,300000
+Papua,2001,400000
+Sulawesi Utara,2001,372000
+Kalimantan Utara,2001,0
+Kalimantan Timur,2001,300000
+Kalimantan Selatan,2001,295000
+Kalimantan Tengah,2001,362000
+Kalimantan Barat,2001,304500
+Nusa Tenggara Timur,2001,275000
+Sulawesi Tengah,2001,245000
+DI. Yogyakarta,2002,321800
+Jawa Tengah,2002,314500
+Jawa Barat,2002,280800
+DKI Jakarta,2002,591300
+Kepulauan Riau,2002,0
+Bangka Belitung,2002,345000
+Lampung,2002,310000
+Riau,2002,394000
+Sumatera Selatan,2002,331500
+Jambi,2002,304000
+Sumatera Barat,2002,385000
+Sumatera Utara,2002,464000
+Aceh,2002,330000
+Jawa Timur,2002,245000
+Bengkulu,2002,295000
+Banten,2002,360000
+Papua,2002,530000
+Nusa Tenggara Barat,2002,320000
+Bali,2002,341000
+Papua Barat,2002,0
+Maluku Utara,2002,322000
+Maluku,2002,285000
+Sulawesi Barat,2002,0
+Sulawesi Tenggara,2002,325000
+Sulawesi Selatan,2002,375000
+Gorontalo,2002,375000
+Sulawesi Utara,2002,438000
+Kalimantan Utara,2002,0
+Kalimantan Timur,2002,500000
+Kalimantan Selatan,2002,377500
+Kalimantan Tengah,2002,362000
+Kalimantan Barat,2002,380000
+Nusa Tenggara Timur,2002,330000
+Sulawesi Tengah,2002,350000
+Bangka Belitung,2003,379500
+DI. Yogyakarta,2003,360000
+Jawa Tengah,2003,340400
+Jawa Barat,2003,320000
+DKI Jakarta,2003,631600
+Kepulauan Riau,2003,0
+Lampung,2003,350000
+Jawa Timur,2003,274000
+Sumatera Selatan,2003,403500
+Jambi,2003,390000
+Riau,2003,437500
+Sumatera Barat,2003,435000
+Sumatera Utara,2003,505000
+Aceh,2003,425000
+Bengkulu,2003,330000
+Banten,2003,475000
+Papua,2003,600000
+Nusa Tenggara Barat,2003,375000
+Papua Barat,2003,0
+Maluku Utara,2003,370000
+Maluku,2003,370000
+Sulawesi Barat,2003,0
+Gorontalo,2003,410000
+Sulawesi Tenggara,2003,390000
+Sulawesi Selatan,2003,415000
+Bali,2003,410000
+Sulawesi Utara,2003,495000
+Kalimantan Utara,2003,0
+Kalimantan Timur,2003,540000
+Kalimantan Selatan,2003,425000
+Kalimantan Tengah,2003,425000
+Kalimantan Barat,2003,400000
+Nusa Tenggara Timur,2003,350000
+Sulawesi Tengah,2003,410000
+Jawa Timur,2004,310000
+DI. Yogyakarta,2004,365000
+Jawa Tengah,2004,365000
+Jawa Barat,2004,366500
+DKI Jakarta,2004,671600
+Kepulauan Riau,2004,0
+Bangka Belitung,2004,447900
+Jambi,2004,425000
+Bengkulu,2004,363000
+Sumatera Selatan,2004,460000
+Riau,2004,476900
+Sumatera Barat,2004,480000
+Sumatera Utara,2004,537000
+Banten,2004,515000
+Lampung,2004,377500
+Aceh,2004,550000
+Bali,2004,425000
+Nusa Tenggara Timur,2004,400000
+Nusa Tenggara Barat,2004,412500
+Papua,2004,650000
+Papua Barat,2004,0
+Maluku Utara,2004,400000
+Maluku,2004,450000
+Gorontalo,2004,430000
+Sulawesi Tenggara,2004,470000
+Sulawesi Barat,2004,0
+Sulawesi Tengah,2004,450000
+Sulawesi Utara,2004,545000
+Kalimantan Utara,2004,0
+Kalimantan Timur,2004,572700
+Kalimantan Selatan,2004,482200
+Kalimantan Tengah,2004,482300
+Kalimantan Barat,2004,420000
+Sulawesi Selatan,2004,455000
+Kepulauan Riau,2005,557000
+Jawa Timur,2005,340000
+DI. Yogyakarta,2005,400000
+Jawa Tengah,2005,390000
+Jawa Barat,2005,408260
+DKI Jakarta,2005,711843
+Bangka Belitung,2005,560000
+Banten,2005,585000
+Sumatera Selatan,2005,503700
+Jambi,2005,485000
+Riau,2005,551500
+Sumatera Barat,2005,540000
+Sumatera Utara,2005,600000
+Aceh,2005,620000
+Bengkulu,2005,430000
+Bali,2005,447500
+Lampung,2005,405000
+Nusa Tenggara Timur,2005,450000
+Papua,2005,700000
+Papua Barat,2005,0
+Maluku Utara,2005,440000
+Maluku,2005,500000
+Sulawesi Barat,2005,0
+Sulawesi Tenggara,2005,498600
+Sulawesi Selatan,2005,510000
+Gorontalo,2005,435000
+Sulawesi Tengah,2005,490000
+Sulawesi Utara,2005,600000
+Kalimantan Utara,2005,0
+Kalimantan Timur,2005,600000
+Kalimantan Selatan,2005,536300
+Kalimantan Tengah,2005,523698
+Kalimantan Barat,2005,445200
+Nusa Tenggara Barat,2005,475000
+Bangka Belitung,2006,640000
+DI. Yogyakarta,2006,460000
+Jawa Tengah,2006,450000
+Jawa Barat,2006,447654
+DKI Jakarta,2006,819100
+Kepulauan Riau,2006,760000
+Lampung,2006,505000
+Aceh,2006,820000
+Sumatera Selatan,2006,604000
+Jambi,2006,563000
+Riau,2006,637000
+Sumatera Barat,2006,650000
+Sumatera Utara,2006,737794
+Jawa Timur,2006,390000
+Bengkulu,2006,516000
+Banten,2006,661613
+Papua Barat,2006,822500
+Nusa Tenggara Barat,2006,550000
+Papua,2006,822500
+Maluku Utara,2006,528000
+Maluku,2006,575000
+Sulawesi Barat,2006,612000
+Gorontalo,2006,527000
+Sulawesi Tenggara,2006,573400
+Sulawesi Selatan,2006,612000
+Bali,2006,510000
+Sulawesi Utara,2006,713500
+Kalimantan Utara,2006,0
+Kalimantan Timur,2006,701640
+Kalimantan Selatan,2006,629000
+Kalimantan Tengah,2006,634260
+Kalimantan Barat,2006,512000
+Nusa Tenggara Timur,2006,550000
+Sulawesi Tengah,2006,575000
+DI. Yogyakarta,2007,500000
+Jawa Tengah,2007,500000
+Jawa Barat,2007,516840
+DKI Jakarta,2007,900560
+Kepulauan Riau,2007,805000
+Bangka Belitung,2007,720000
+Lampung,2007,555000
+Riau,2007,710000
+Sumatera Selatan,2007,662000
+Jambi,2007,658000
+Sumatera Barat,2007,725000
+Sumatera Utara,2007,761000
+Aceh,2007,850000
+Jawa Timur,2007,448500
+Bengkulu,2007,644838
+Banten,2007,746500
+Bali,2007,622000
+Nusa Tenggara Barat,2007,645000
+Papua Barat,2007,987000
+Maluku Utara,2007,660000
+Maluku,2007,635000
+Sulawesi Barat,2007,691464
+Gorontalo,2007,560000
+Sulawesi Tenggara,2007,640000
+Sulawesi Selatan,2007,673200
+Papua,2007,987000
+Sulawesi Utara,2007,750000
+Kalimantan Utara,2007,0
+Kalimantan Timur,2007,766500
+Kalimantan Selatan,2007,745000
+Kalimantan Tengah,2007,665973
+Kalimantan Barat,2007,560000
+Nusa Tenggara Timur,2007,600000
+Sulawesi Tengah,2007,615000
+DI. Yogyakarta,2008,586000
+Jawa Tengah,2008,547000
+Jawa Barat,2008,568193
+DKI Jakarta,2008,972604
+Kepulauan Riau,2008,833000
+Bangka Belitung,2008,813000
+Lampung,2008,617000
+Riau,2008,800000
+Sumatera Selatan,2008,743000
+Jambi,2008,724000
+Sumatera Barat,2008,800000
+Sumatera Utara,2008,822205
+Aceh,2008,1000000
+Jawa Timur,2008,500000
+Bengkulu,2008,690000
+Banten,2008,837000
+Bali,2008,682650
+Nusa Tenggara Barat,2008,730000
+Papua Barat,2008,1105500
+Maluku Utara,2008,700000
+Maluku,2008,700000
+Sulawesi Barat,2008,760500
+Gorontalo,2008,600000
+Sulawesi Tenggara,2008,700000
+Sulawesi Selatan,2008,740520
+Papua,2008,1105500
+Sulawesi Utara,2008,845000
+Kalimantan Utara,2008,0
+Kalimantan Timur,2008,889654
+Kalimantan Selatan,2008,825000
+Kalimantan Tengah,2008,765868
+Kalimantan Barat,2008,645000
+Nusa Tenggara Timur,2008,650000
+Sulawesi Tengah,2008,670000
+DI. Yogyakarta,2009,700000
+Jawa Tengah,2009,575000
+Jawa Barat,2009,628191
+DKI Jakarta,2009,1069865
+Kepulauan Riau,2009,892000
+Bangka Belitung,2009,850000
+Lampung,2009,691000
+Riau,2009,901600
+Sumatera Selatan,2009,824730
+Jambi,2009,800000
+Sumatera Barat,2009,880000
+Sumatera Utara,2009,905000
+Aceh,2009,1200000
+Jawa Timur,2009,570000
+Bengkulu,2009,735000
+Banten,2009,917500
+Papua,2009,1216100
+Nusa Tenggara Barat,2009,832500
+Papua Barat,2009,1180000
+Maluku Utara,2009,770000
+Maluku,2009,775000
+Sulawesi Barat,2009,909400
+Gorontalo,2009,675000
+Sulawesi Tenggara,2009,770000
+Sulawesi Selatan,2009,905000
+Bali,2009,760000
+Sulawesi Utara,2009,929500
+Kalimantan Utara,2009,0
+Kalimantan Timur,2009,955000
+Kalimantan Selatan,2009,930000
+Kalimantan Tengah,2009,873089
+Kalimantan Barat,2009,705000
+Nusa Tenggara Timur,2009,725000
+Sulawesi Tengah,2009,720000
+Jawa Timur,2010,630000
+DI. Yogyakarta,2010,745694
+Jawa Tengah,2010,660000
+Jawa Barat,2010,671500
+DKI Jakarta,2010,1118009
+Kepulauan Riau,2010,925000
+Bangka Belitung,2010,910000
+Jambi,2010,900000
+Bengkulu,2010,780000
+Sumatera Selatan,2010,927825
+Riau,2010,1016000
+Sumatera Barat,2010,940000
+Sumatera Utara,2010,965000
+Banten,2010,955300
+Lampung,2010,767500
+Aceh,2010,1300000
+Bali,2010,829316
+Nusa Tenggara Timur,2010,800000
+Nusa Tenggara Barat,2010,890775
+Papua Barat,2010,1210000
+Maluku Utara,2010,847000
+Maluku,2010,840000
+Sulawesi Barat,2010,944200
+Gorontalo,2010,710000
+Sulawesi Tenggara,2010,860000
+Papua,2010,1316500
+Sulawesi Tengah,2010,777500
+Sulawesi Utara,2010,1000000
+Kalimantan Utara,2010,0
+Kalimantan Timur,2010,1002000
+Kalimantan Selatan,2010,1024500
+Kalimantan Tengah,2010,986590
+Kalimantan Barat,2010,741000
+Sulawesi Selatan,2010,1000000
+Nusa Tenggara Timur,2011,850000
+Kalimantan Barat,2011,802500
+Kalimantan Tengah,2011,1134580
+Kalimantan Selatan,2011,1126000
+Kalimantan Timur,2011,1084000
+Kalimantan Utara,2011,0
+Sulawesi Utara,2011,1050000
+Gorontalo,2011,762500
+Sulawesi Selatan,2011,1100000
+Sulawesi Tenggara,2011,930000
+Sulawesi Barat,2011,1006000
+Maluku,2011,900000
+Maluku Utara,2011,889350
+Papua Barat,2011,1410000
+Nusa Tenggara Barat,2011,950000
+Sulawesi Tengah,2011,827500
+Papua,2011,1403000
+Bali,2011,890000
+Jawa Timur,2011,705000
+Aceh,2011,1350000
+Sumatera Utara,2011,1035500
+Sumatera Barat,2011,1055000
+Riau,2011,1120000
+Jambi,2011,1028000
+Sumatera Selatan,2011,1048440
+Bengkulu,2011,815000
+Banten,2011,1000000
+Bangka Belitung,2011,1024000
+Kepulauan Riau,2011,975000
+DKI Jakarta,2011,1290000
+Jawa Barat,2011,732000
+Jawa Tengah,2011,675000
+DI. Yogyakarta,2011,808000
+Lampung,2011,855000
+DI. Yogyakarta,2012,892660
+Jawa Tengah,2012,765000
+Jawa Barat,2012,780000
+DKI Jakarta,2012,1529150
+Kepulauan Riau,2012,1015000
+Bangka Belitung,2012,1110000
+Lampung,2012,975000
+Jambi,2012,1142500
+Sumatera Selatan,2012,1195220
+Riau,2012,1238000
+Sumatera Barat,2012,1150000
+Sumatera Utara,2012,1200000
+Aceh,2012,1400000
+Jawa Timur,2012,745000
+Bengkulu,2012,930000
+Banten,2012,1042000
+Bali,2012,967500
+Nusa Tenggara Barat,2012,1000000
+Papua Barat,2012,1450000
+Maluku Utara,2012,960498
+Maluku,2012,975000
+Sulawesi Barat,2012,1127000
+Gorontalo,2012,837500
+Sulawesi Tenggara,2012,1032300
+Sulawesi Selatan,2012,1200000
+Papua,2012,1585000
+Sulawesi Utara,2012,1250000
+Kalimantan Utara,2012,0
+Kalimantan Timur,2012,1177000
+Kalimantan Selatan,2012,1225000
+Kalimantan Tengah,2012,1327459
+Kalimantan Barat,2012,900000
+Nusa Tenggara Timur,2012,925000
+Sulawesi Tengah,2012,885000
+DI. Yogyakarta,2013,947114
+Jawa Tengah,2013,830000
+Jawa Barat,2013,850000
+DKI Jakarta,2013,2200000
+Kepulauan Riau,2013,1365087
+Bangka Belitung,2013,1265000
+Lampung,2013,1150000
+Riau,2013,1400000
+Sumatera Selatan,2013,1630000
+Jambi,2013,1300000
+Sumatera Barat,2013,1350000
+Sumatera Utara,2013,1375000
+Aceh,2013,1550000
+Jawa Timur,2013,866250
+Bengkulu,2013,1200000
+Banten,2013,1170000
+Papua,2013,1710000
+Nusa Tenggara Barat,2013,1100000
+Bali,2013,1181000
+Papua Barat,2013,1720000
+Maluku Utara,2013,1200622
+Maluku,2013,1275000
+Sulawesi Barat,2013,1165000
+Sulawesi Tenggara,2013,1125207
+Sulawesi Selatan,2013,1440000
+Gorontalo,2013,1175000
+Sulawesi Utara,2013,1550000
+Kalimantan Utara,2013,0
+Kalimantan Timur,2013,1752073
+Kalimantan Selatan,2013,1337500
+Kalimantan Tengah,2013,1553127
+Kalimantan Barat,2013,1060000
+Nusa Tenggara Timur,2013,1010000
+Sulawesi Tengah,2013,995000
+Bangka Belitung,2014,1640000
+DI. Yogyakarta,2014,988500
+Jawa Tengah,2014,910000
+Jawa Barat,2014,1000000
+DKI Jakarta,2014,2441000
+Kepulauan Riau,2014,1665000
+Lampung,2014,1399037
+Jawa Timur,2014,1000000
+Sumatera Selatan,2014,1825000
+Jambi,2014,1502300
+Riau,2014,1700000
+Sumatera Barat,2014,1490000
+Sumatera Utara,2014,1505850
+Aceh,2014,1750000
+Bengkulu,2014,1350000
+Banten,2014,1325000
+Bali,2014,1542600
+Nusa Tenggara Barat,2014,1210000
+Papua Barat,2014,1870000
+Maluku Utara,2014,1440746
+Maluku,2014,1415000
+Sulawesi Barat,2014,1400000
+Gorontalo,2014,1325000
+Sulawesi Tenggara,2014,1400000
+Sulawesi Selatan,2014,1800000
+Papua,2014,2040000
+Sulawesi Utara,2014,1900000
+Kalimantan Utara,2014,0
+Kalimantan Timur,2014,1886315
+Kalimantan Selatan,2014,1620000
+Kalimantan Tengah,2014,1723970
+Kalimantan Barat,2014,1380000
+Nusa Tenggara Timur,2014,1150000
+Sulawesi Tengah,2014,1250000
+DI. Yogyakarta,2015,988500
+Jawa Tengah,2015,910000
+Jawa Barat,2015,1000000
+DKI Jakarta,2015,2700000
+Kepulauan Riau,2015,1954000
+Bangka Belitung,2015,2100000
+Lampung,2015,1581000
+Riau,2015,1878000
+Sumatera Selatan,2015,1974346
+Jambi,2015,1710000
+Sumatera Barat,2015,1615000
+Sumatera Utara,2015,1625000
+Aceh,2015,1900000
+Jawa Timur,2015,1000000
+Bengkulu,2015,1500000
+Banten,2015,1600000
+Bali,2015,1621172
+Nusa Tenggara Barat,2015,1330000
+Papua Barat,2015,2015000
+Maluku Utara,2015,1577617
+Maluku,2015,1650000
+Sulawesi Barat,2015,1655500
+Gorontalo,2015,1600000
+Sulawesi Tenggara,2015,1652000
+Sulawesi Selatan,2015,2000000
+Papua,2015,2193000
+Sulawesi Utara,2015,2150000
+Kalimantan Utara,2015,2026126
+Kalimantan Timur,2015,2026126
+Kalimantan Selatan,2015,1870000
+Kalimantan Tengah,2015,1896367
+Kalimantan Barat,2015,1560000
+Nusa Tenggara Timur,2015,1250000
+Sulawesi Tengah,2015,1500000
+DI. Yogyakarta,2016,0
+Jawa Tengah,2016,0
+Jawa Barat,2016,2250000
+DKI Jakarta,2016,3100000
+Kepulauan Riau,2016,2178710
+Bangka Belitung,2016,2341500
+Lampung,2016,1763000
+Riau,2016,2095000
+Sumatera Selatan,2016,2206000
+Jambi,2016,1906650
+Sumatera Barat,2016,1800725
+Sumatera Utara,2016,1811875
+Aceh,2016,2118500
+Jawa Timur,2016,0
+Bengkulu,2016,1605000
+Banten,2016,1784000
+Papua,2016,2435000
+Nusa Tenggara Barat,2016,1482950
+Bali,2016,1807600
+Papua Barat,2016,2237000
+Maluku Utara,2016,1681266
+Maluku,2016,1775000
+Sulawesi Barat,2016,1864000
+Sulawesi Tenggara,2016,1850000
+Sulawesi Selatan,2016,2250000
+Gorontalo,2016,1875000
+Sulawesi Utara,2016,2400000
+Kalimantan Utara,2016,2175340
+Kalimantan Timur,2016,2161253
+Kalimantan Selatan,2016,2085050
+Kalimantan Tengah,2016,2057558
+Kalimantan Barat,2016,1739400
+Nusa Tenggara Timur,2016,1425000
+Sulawesi Tengah,2016,1670000
+Jawa Timur,2018,1508895
+DI. Yogyakarta,2018,1454154
+Jawa Tengah,2018,1486065
+Jawa Barat,2018,1544361
+DKI Jakarta,2018,3648036
+Kepulauan Riau,2018,2563875
+Bangka Belitung,2018,2755444
+Aceh,2018,2700000
+Bengkulu,2018,1888741
+Sumatera Selatan,2018,2595995
+Jambi,2018,2243719
+Riau,2018,2464154
+Sumatera Barat,2018,2119067
+Sumatera Utara,2018,2132189
+Lampung,2018,2074673
+Banten,2018,2099385
+Sulawesi Utara,2018,2824286
+Nusa Tenggara Barat,2018,1825000
+Papua,2018,3000000
+Papua Barat,2018,2667000
+Maluku Utara,2018,2320803
+Maluku,2018,2222220
+Sulawesi Barat,2018,2193530
+Gorontalo,2018,2206813
+Sulawesi Tenggara,2018,2177052
+Bali,2018,2127157
+Sulawesi Tengah,2018,1965232
+Kalimantan Utara,2018,2559903
+Kalimantan Timur,2018,2543332
+Kalimantan Selatan,2018,2454671
+Kalimantan Tengah,2018,2421305
+Kalimantan Barat,2018,2046900
+Nusa Tenggara Timur,2018,1660000
+Sulawesi Selatan,2018,2647767
+DI. Yogyakarta,2019,1570923
+Jawa Tengah,2019,1605396
+Jawa Barat,2019,1668373
+DKI Jakarta,2019,3940973
+Kepulauan Riau,2019,2769754
+Bangka Belitung,2019,2976706
+Lampung,2019,2241270
+Riau,2019,2662026
+Sumatera Selatan,2019,2804453
+Jambi,2019,2423889
+Sumatera Barat,2019,2289220
+Sumatera Utara,2019,2303403
+Aceh,2019,2916810
+Jawa Timur,2019,1630059
+Bengkulu,2019,2040407
+Banten,2019,2267990
+Bali,2019,2297969
+Nusa Tenggara Barat,2019,2012610
+Papua Barat,2019,2934500
+Maluku Utara,2019,2508091
+Maluku,2019,2400664
+Sulawesi Barat,2019,2381000
+Gorontalo,2019,2384020
+Sulawesi Tenggara,2019,2351870
+Sulawesi Selatan,2019,2860382
+Papua,2019,3240900
+Sulawesi Utara,2019,3051076
+Kalimantan Utara,2019,2765463
+Kalimantan Timur,2019,2747561
+Kalimantan Selatan,2019,2651782
+Kalimantan Tengah,2019,2663435
+Kalimantan Barat,2019,2211500
+Nusa Tenggara Timur,2019,1795000
+Sulawesi Tengah,2019,2123040
+Jawa Timur,2020,1768777
+DI. Yogyakarta,2020,1704608
+Jawa Tengah,2020,1742015
+Jawa Barat,2020,1810351
+DKI Jakarta,2020,4276350
+Kepulauan Riau,2020,3005460
+Lampung,2020,2432002
+Riau,2020,2888564
+Sumatera Selatan,2020,3043111
+Jambi,2020,2630162
+Sumatera Barat,2020,2484041
+Sumatera Utara,2020,2499423
+Aceh,2020,3165031
+Banten,2020,2460997
+Bengkulu,2020,2213604
+Bali,2020,2494000
+Bangka Belitung,2020,3230024
+Nusa Tenggara Timur,2020,1950000
+Papua,2020,3516700
+Nusa Tenggara Barat,2020,2183883
+Maluku Utara,2020,2721530
+Maluku,2020,2604961
+Sulawesi Barat,2020,2678863
+Gorontalo,2020,2788826
+Sulawesi Tenggara,2020,2552015
+Sulawesi Selatan,2020,3103800
+Papua Barat,2020,3134600
+Kalimantan Tengah,2020,2903145
+Sulawesi Utara,2020,3310723
+Kalimantan Utara,2020,3000804
+Kalimantan Timur,2020,2981379
+Kalimantan Selatan,2020,2877449
+Kalimantan Barat,2020,2399699
+Sulawesi Tengah,2020,2303711
+Kalimantan Tengah,2021,2903144
+Kalimantan Selatan,2021,2877448
+Kalimantan Timur,2021,2981378
+Kalimantan Utara,2021,3000804
+Sulawesi Utara,2021,3310723
+Maluku Utara,2021,2721530
+Sulawesi Selatan,2021,3165876
+Sulawesi Tenggara,2021,2552014
+Gorontalo,2021,2788826
+Sulawesi Barat,2021,2678863
+Maluku,2021,2604961
+Kalimantan Barat,2021,2399698
+Sulawesi Tengah,2021,2303711
+Nusa Tenggara Timur,2021,1950000
+Jawa Barat,2021,1810351
+Bali,2021,2494000
+Sumatera Barat,2021,2484041
+Riau,2021,2888564
+Jambi,2021,2630162
+Sumatera Selatan,2021,3144446
+Bengkulu,2021,2215000
+Lampung,2021,2432001
+Nusa Tenggara Barat,2021,2183883
+Bangka Belitung,2021,3230023
+DKI Jakarta,2021,4416186
+Papua Barat,2021,3134600
+Jawa Tengah,2021,1798979
+DI. Yogyakarta,2021,1765000
+Jawa Timur,2021,1868777
+Banten,2021,2460996
+Kepulauan Riau,2021,3005460
+Papua,2021,3516700
+Aceh,2021,3165031
+Sumatera Utara,2021,2499423
+Papua Barat,2022,3200000
+Sumatera Utara,2022,2522610
+Sumatera Barat,2022,2512539
+Riau,2022,2938564
+Jambi,2022,2698941
+Sumatera Selatan,2022,3144446
+Bengkulu,2022,2238094
+Lampung,2022,2440486
+Bangka Belitung,2022,3264884
+Kepulauan Riau,2022,3050172
+DKI Jakarta,2022,4641854
+Jawa Barat,2022,1841487
+Jawa Tengah,2022,1812935
+DI. Yogyakarta,2022,1840916
+Jawa Timur,2022,1891567
+Banten,2022,2501203
+Bali,2022,2516971
+Maluku Utara,2022,2862231
+Maluku,2022,2619313
+Sulawesi Barat,2022,2678863
+Gorontalo,2022,2800580
+Sulawesi Tenggara,2022,2710596
+Sulawesi Selatan,2022,3165876
+Papua,2022,3561932
+Sulawesi Utara,2022,3310723
+Kalimantan Timur,2022,3014497
+Kalimantan Selatan,2022,2906473
+Kalimantan Tengah,2022,2922516
+Kalimantan Barat,2022,2434328
+Nusa Tenggara Timur,2022,1975000
+Nusa Tenggara Barat,2022,2207212
+Kalimantan Utara,2022,3016738
+Sulawesi Tengah,2022,2390739
+Aceh,2022,3166460
+Sumatera Utara,2023,2710493
+Papua,2023,3864696
+Papua Barat,2023,3282000
+Maluku Utara,2023,2976720
+Maluku,2023,2976720
+Sulawesi Barat,2023,2871794
+Gorontalo,2023,2983350
+Sulawesi Tenggara,2023,2758984
+Sulawesi Selatan,2023,3385145
+Sulawesi Tengah,2023,2599546
+Kalimantan Utara,2023,3251702
+Kalimantan Timur,2023,3201396
+Kalimantan Selatan,2023,3149977
+Kalimantan Tengah,2023,3181013
+Kalimantan Barat,2023,2608601
+Nusa Tenggara Timur,2023,2123994
+Nusa Tenggara Barat,2023,2371407
+Bali,2023,2713672
+Sumatera Barat,2023,2742476
+Riau,2023,3191662
+Jambi,2023,2943000
+Sumatera Selatan,2023,3404177
+Bengkulu,2023,2418280
+Lampung,2023,2633284
+Aceh,2023,3413666
+Bangka Belitung,2023,3498479
+DKI Jakarta,2023,4901798
+Jawa Barat,2023,1986670
+Jawa Tengah,2023,1958169
+DI. Yogyakarta,2023,2025046
+Jawa Timur,2023,2040244
+Banten,2023,2661280
+Kepulauan Riau,2023,3279194
+Sulawesi Utara,2023,3485000
