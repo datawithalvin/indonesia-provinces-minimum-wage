@@ -11,9 +11,9 @@ import json
 # load cleaned data
 # Do some feature engineering (add year and month column)
 
-with urlopen('https://raw.githubusercontent.com/superpikar/indonesia-geojson/master/indonesia.geojson') as response:
-        provinces = json.load(response)
-
+with open("../datasets/geojson/indonesia.geojson") as f:
+    provinces = json.load(f)
+    
 filepath = "../datasets/processed/UMP-Tingkat-Provinsi.csv"
 
 main_df = pd.read_csv(filepath)
@@ -37,7 +37,7 @@ app = Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
 server = app.server
 
 
-mytitle = dcc.Markdown("Dashboard Upah Minimum Provinisi", style={'height': '5vh'})
+mytitle = dcc.Markdown("Dashboard Upah Minimum Provinisi di Indonesia")
 subtitle = "This dashboard shows active fires as observed by the Visible Infrared Imaging Radiometer Suite, or VIIRS, during 2020 to 2021. The VIIRS instrument flies on the Joint Polar Satellite System’s Suomi-NPP and NOAA-20 polar-orbiting satellites. Instruments on polar orbiting satellites typically observe a wildfire at a given location a few times a day as they orbit the Earth from pole to pole. VIIRS detects hot spots at a resolution of 375 meters per pixel, which means it can detect smaller, lower temperature fires than other fire-observing satellites. VIIRS also provides nighttime fire detection capabilities through its Day-Night Band, which can measure low-intensity visible light emitted by small and fledgling fires."
 mygraph1 = dcc.Graph(figure={}, style={'height': '50vh'})
 mygraph2 = dcc.Graph(figure={}, style={'height': '50vh'})
@@ -49,12 +49,32 @@ dropdown = dcc.Dropdown(options=main_df["Tahun"].unique(),
 
 # -------- Customize layout ---------
 
-app.layout = dbc.Container([
+app.layout = html.Div([
+        dbc.Container([
+                html.Div(children=[
+                        html.H4(mytitle), # add title
+                ], style={
+                        "backgroundColor":'rgba(211, 211, 211, 0.1)',
+                        'border': '1px solid #d6d6d6',  # add a border
+                        'textAlign': 'left',  # center the title
+                        'display':'flex',
+                        'align-items':'center',
 
-        html.H3(mytitle),
-        html.H6(subtitle),
+                }),
 
-        html.Label("Pilih Tahun:"),
+        # title web app
+        
+        dbc.Row([
+            dbc.Col(width=3, children=[
+                # contain side panel contents
+
+                # side panel content
+            ], style={'border': '0.1px solid #d6d6d6'})]),
+
+
+        # html.H6(subtitle),
+
+        # html.Label("Pilih Tahun:"),
 
         # dbc.Row([
         #         dbc.Col([dropdown], width=2)
@@ -71,7 +91,7 @@ app.layout = dbc.Container([
         # ], justify="right"),
 
 
-], fluid=True)
+], fluid=True)])
 
 # -------- Callback ---------
 # @app.callback(
