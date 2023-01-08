@@ -21,11 +21,11 @@ import numpy as np
 # ************************************************************************************************************************************************************************************
 
 ## load geojson file
-with open("../datasets/geojson/indonesia.geojson") as f:
+with open("data/geojson/indonesia.geojson") as f:
     provinces = json.load(f)
     
 ## load dataset
-filepath = "../datasets/processed/UMP-Tingkat-Provinsi.csv"
+filepath = "data/processed/UMP-Tingkat-Provinsi.csv"
 main_df = pd.read_csv(filepath)
 
 ## do some data preparation and add some column that needed for the viz
@@ -84,7 +84,7 @@ list_tahun = list_tahun["Tahun"].unique()
 
 ## set the themes to dark
 app = Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
-# server = app.server
+server = app.server
 
 ## dashboard title and description
 mytitle = dcc.Markdown("Dashboard Upah Minimum Provinsi Indonesia")
@@ -124,7 +124,11 @@ sidebar_card = dbc.Card([
                 html.H3(mytitle, style={"width":"100%", "height":"40%",  "text-align":"justify", "font-family":"Futura", "font-size":"24px", "font-weight":"bold"}),
                 html.Hr(),
                 html.P(description,
-                        style={"width":"100%", "height":"60%",  "text-align":"justify", "font-family":"Futura", "font-size":"14px"})
+                        style={"width":"100%", "height":"60%",  "text-align":"justify", "font-family":"Futura", "font-size":"14px"}),
+                dbc.Button(
+                        "Source Code", href="https://github.com/datawithalvin/indonesia-provinces-minimum-wage",
+                         color="primary", size="sm", external_link=True
+                         )
         ])
 ], style={"background-color":"rgba(17, 17, 17, 1)", "border":"10px rgba(37, 37, 38, 175)", "margin-right": "0px"}, className="g-0",
         inverse=True,)
