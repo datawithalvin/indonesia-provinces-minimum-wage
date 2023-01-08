@@ -397,7 +397,7 @@ def minimum_wage_map(selected_year, hover_data):
         ## update figure layout
         treemap_fig.update_layout(
                 title="<b>Jumlah Kenaikan UMP Tahun 2023<b>",
-                title_x=0.45, title_font_size=16, title_y=0.95, 
+                title_x=0.45, title_font_size=16, title_y=1, 
                 )
         treemap_fig.update_layout(margin = dict(t=50, l=0, r=25, b=15))
         treemap_fig.update_layout(autosize=False,width=350,height=500)
