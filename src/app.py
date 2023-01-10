@@ -106,8 +106,8 @@ dropdown = dcc.Dropdown(options=list_tahun,
                         style={"width":"40%", "height":"5%", "text-align":"left", 
                                 "font-family":"Futura", "font-size":"12px"})
 
-map_graph = dcc.Graph(figure={})
-line_graph = dcc.Graph(figure={})
+map_graph = dcc.Graph(figure={}, className='row')
+line_graph = dcc.Graph(figure={}, className='row')
 treemap_graph = dcc.Graph(figure={})
 
 
@@ -178,12 +178,12 @@ rightside_card = dbc.Card([
 
 app.layout = dbc.Container([
     dbc.Row([
-        dbc.Col(sidebar_card, width=2, style={"height": "100vh"}),
-        dbc.Col(main_card, width=7, style={"height": "100%"}),
-        dbc.Col(rightside_card, width=3, style={"height": "100%"})
+        dbc.Col(sidebar_card, style={"height": "100vh"}, xs=10, sm=10, md=2, lg=2, xl=2),
+        dbc.Col(main_card, style={"height": "100%"}, xs=10, sm=10, md=7, lg=7, xl=7),
+        dbc.Col(rightside_card, style={"height": "100%"}, xs=10, sm=10, md=3, lg=3, xl=3)
     ], className=["h-100", "g-0"])
     
-], fluid=True, className="100vh", style={"background-color":"rgba(17, 17, 17, 1)"})
+], fluid=True, style={"background-color":"rgba(17, 17, 17, 1)"})
 
 
 
@@ -331,7 +331,7 @@ def minimum_wage_map(selected_year, hover_data):
         )
 
         line_fig.update_layout(template='plotly_dark')
-        line_fig.update_layout(autosize=False,width=1200,height=300, showlegend=False)
+        line_fig.update_layout(autosize=False,width=1100,height=300, showlegend=False)
         line_fig.update_layout(font=dict(family='Futura'))
         line_fig.update_annotations(font_size=16, y=1.15)
         line_fig.update_traces(line=dict(color='steelblue'))
