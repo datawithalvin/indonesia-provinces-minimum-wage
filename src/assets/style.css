@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    background-color: rgba(17, 17, 17, 1);
+    font-family: 'Futura', sans-serif;
+    color: #ffffff;
+    border:0px rgba(17, 17, 17, 1)
+}
+
+.app-container {
+    height: 100vh;
+    background-color: rgba(17, 17, 17, 1)
+}
+
+.dashboard-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.dashboard-description {
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.dashboard-dropdown {
+    width: 100%;
+}
+
+/* Grid Layout */
+.h-100 {
+    height: 100%;
+}
+
+.g-0 {
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+}
+
+/* Columns */
+.sidebar-col {
+    max-width: 300px;
+}
+
+.main-col {
+    flex-grow: 1;
+}
+
+.rightside-col {
+    max-width: 500px;
+}
+
+/* Cards */
+.main-card .card-header {
+    background-color: rgba(17, 17, 17, 1);
+}
+
+.sidebar-card,
+.main-card,
+.rightside-card {
+    height: 100%;
+    background-color: rgba(17, 17, 17, 1);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(17, 17, 17, 1);
+}
+
+.sidebar-card .card-body,
+.main-card .card-body,
+.rightside-card .card-body {
+    padding: 20px;
+}
+
+.rightside-card-body {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.dropdown-label {
+    font-weight: bold;
+    margin-right: 5px;
+    background-color: rgba(17, 17, 17, 1)
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .sidebar-col,
+    .rightside-col {
+        max-width: 250px;
+    }
+}
+
+@media (max-width: 992px) {
+    .sidebar-col,
+    .rightside-col {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .dashboard-title {
+        font-size: 18px;
+    }
+
+    .dashboard-description {
+        font-size: 12px;
+    }
+}

@@ -1,3 +1,7 @@
+# ************************************************************************************************************************************************************************************
+# -------- Import libraries ---------
+# ************************************************************************************************************************************************************************************
+
 from dash import Dash, dcc, Output, Input, html
 import dash_bootstrap_components as dbc  
 import plotly.graph_objects as go
@@ -78,18 +82,24 @@ list_tahun = list_tahun["Tahun"].unique()
 # -------- Build web components ---------
 # ************************************************************************************************************************************************************************************
 
+## set the themes to dark
+app = Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
+server = app.server
+
 ## dashboard title and description
-mytitle = "Dashboard Upah Minimum Provinsi Indonesia"
-description = """
+mytitle = dcc.Markdown("Dashboard Upah Minimum Provinsi Indonesia")
+description = dcc.Markdown("""
 Upah Minimum Provinsi (UMP) adalah gaji bulanan minimum yang wajib dibayarkan oleh pemberi kerja ke tenaga kerja.
-UMP ditetapkan oleh pemerintah provinsi setempat dengan mempertimbangkan tingkat biaya hidup, produktivitas, 
+UMP ditetapkan oleh pemerintah provinsi setempat dengan mempertibangkan tingkat biaya hidup, produktivitas, 
 dan kondisi ekonomi dari suatu provinsi dan berlaku hanya untuk pekerja yang bekerja di wilayah administrasi provinsi tersebut.
 Dashboard ini berisi informasi tentang UMP semua provinsi yang ada di Indonesia dan dapat digunakan sebagai referensi 
 untuk memastikan bahwa kamu mendapatkan gaji yang layak. Silahkan kunjungi 
 [tautan berikut ini](https://bplawyers.co.id/2021/04/09/upah-masih-di-bawah-standar-minimum-berikut-ini-langkah-hukum-yang-bisa-ditempuh/)
 jika kamu menerima gaji yang lebih rendah dari UMP yang telah ditetapkan untuk mencari tahu apa langkah yang harus dilakukan.
-"""
+""")
 
+
+## graphs and other components
 dropdown = dcc.Dropdown(options=list_tahun,
                         value=2023,  # initial value displayed when page first loads
                         clearable=False, 
@@ -100,87 +110,88 @@ map_graph = dcc.Graph(figure={}, className='row')
 line_graph = dcc.Graph(figure={}, className='row')
 treemap_graph = dcc.Graph(figure={})
 
-## set the themes to dark
-app = Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
-server = app.server
 
 
-def create_dashboard_title(title):
-    return dcc.Markdown(title, className="dashboard-title")
+# ************************************************************************************************************************************************************************************
+# -------- Build cards and layout ---------
+# ************************************************************************************************************************************************************************************
 
-def create_dashboard_description(description):
-    return dcc.Markdown(description, className="dashboard-description")
-
-def create_dropdown(options, initial_value):
-    return dcc.Dropdown(
-        options=options,
-        value=initial_value,
-        clearable=False,
-        className="dashboard-dropdown"
-    )
-
-def create_graph(figure, className):
-    return dcc.Graph(figure=figure, className=className)
-
-def create_sidebar_card(title, description, source_code_link):
-    return dbc.Card([
+## card for title and description, will be placed at the first column as a sidebar
+## the title will be at the first row with 25% height, and the description will be at the second row with 75% height
+## the width of the column will have size of 2
+sidebar_card = dbc.Card([
         dbc.CardBody([
-            create_dashboard_title(title),
-            html.Hr(),
-            create_dashboard_description(description),
-            dbc.Button(
-                "Source Code", href=source_code_link,
-                color="primary", size="sm", external_link=True
-            )
+                html.H3(mytitle, style={"width":"100%", "height":"40%",  "text-align":"justify", "font-family":"Futura", "font-size":"24px", "font-weight":"bold"}),
+                html.Hr(),
+                html.P(description,
+                        style={"width":"100%", "height":"60%",  "text-align":"justify", "font-family":"Futura", "font-size":"14px"}),
+                dbc.Button(
+                        "Source Code", href="https://github.com/datawithalvin/indonesia-provinces-minimum-wage",
+                         color="primary", size="sm", external_link=True
+                         )
         ])
-    ], className="sidebar-card")
+], style={"background-color":"rgba(17, 17, 17, 1)", "border":"10px rgba(37, 37, 38, 175)", "margin-right": "0px"}, className="g-0",
+        inverse=True,)
 
-def create_main_card(dropdown, map_graph, line_graph):
-    return dbc.Card([
+## card for choropleth map and line chart yearly median of national minimum wage, will be placed at the second column as main focus
+## above the map, there will be a dropdown will a label that have each 10% height, the map will have 60% height, and 30% height for the line chart
+## the width of the column will have size of 6
+
+main_card = dbc.Card([
         dbc.CardBody([
-            dbc.CardHeader([
-                html.Label("Pilih Tahun: ", className="dropdown-label"),
-                dropdown
-            ]),
-            map_graph,
-            line_graph
+                dbc.CardHeader([
+                        html.Label("Pilih Tahun: ", style={"width":"30%", "height":"3%", "text-align":"left",
+                                        "font-family":"Futura", "font-size":"14px", "background-color":"rgba(17, 17, 17, 1)"}),
+                        dropdown
+                ], style={"background-color":"rgba(17, 17, 17, 1)", "border":"0px rgba(17, 17, 17, 1)"}),
+                map_graph,
+                line_graph
         ])
-    ], className="main-card")
+], style={"background-color":"rgba(17, 17, 17, 1)", "border":"0px rgba(17, 17, 17, 1)"})
 
-def create_rightside_card(treemap_graph):
-    return dbc.Card([
-        dbc.CardBody(treemap_graph, className="rightside-card-body")
-    ], className="rightside-card")
 
-def create_app_layout(sidebar_card, main_card, rightside_card):
-    return dbc.Container([
-        dbc.Row([
-            dbc.Col(sidebar_card, className="sidebar-col"),
-            dbc.Col(main_card, className="main-col"),
-            dbc.Col(rightside_card, className="rightside-col")
-        ], className=["h-100", "g-0"])
-    ], fluid=True, className="app-container")
 
-app.layout = create_app_layout(
-    create_sidebar_card(mytitle, description, "https://github.com/datawithalvin/indonesia-provinces-minimum-wage"),
-    create_main_card(dropdown, map_graph, line_graph),
-    create_rightside_card(treemap_graph)
-)
+## card for treemap and another line chart that will dispplay minimum wage of selected province, will be placed at the third column as a support viz
+## the treemap will be at the first row with 60% height and then second row will be the line chart with 30% height that have dropdown and a label with 10% height each
+## the width of the column will have size of 4
+
+rightside_card = dbc.Card([
+        dbc.CardBody(treemap_graph, style={"width":"100%", "height":"90%", "font-family":"Futura"})
+], style={"background-color":"rgba(17, 17, 17, 1)", "border":"0px rgba(17, 17, 17, 1)"})
+
+
+app.layout = dbc.Container([
+    dbc.Row([
+        dbc.Col(sidebar_card, style={"height": "100vh"}, xs=10, sm=10, md=2, lg=2, xl=2),
+        dbc.Col(main_card, style={"height": "100%"}, xs=10, sm=10, md=7, lg=7, xl=7),
+        dbc.Col(rightside_card, style={"height": "100%"}, xs=10, sm=10, md=3, lg=3, xl=3)
+    ], className=["h-100", "g-0"])
+    
+], fluid=True, style={"background-color":"rgba(17, 17, 17, 1)"})
+
+
+
+# ************************************************************************************************************************************************************************************
+# -------- Build Callback ---------
+# ************************************************************************************************************************************************************************************
 
 @app.callback(
-    Output(map_graph, "figure"),
-    Output(line_graph, "figure"),
-    Output(treemap_graph, "figure"),
-    Input(dropdown, "value"),
-    Input(map_graph, "hoverData")
+        Output(map_graph, "figure"),
+        Output(line_graph, "figure"),
+        Output(treemap_graph, "figure"),
+        Input(dropdown, "value"),
+        Input(map_graph, "hoverData")
 )
-def update_graphs(selected_year, hover_data):
-    map_fig, line_fig, treemap_fig = minimum_wage_map(selected_year, hover_data)
-    return map_fig, line_fig, treemap_fig
 
 def minimum_wage_map(selected_year, hover_data):
         print(selected_year)
         print(type(selected_year))
+
+
+        # print(json.dumps(hover_data, indent=2))
+
+        # slctd_province = hover_data["points"][0]["text"]
+
 
         # ************************************************************************************************************************************************************************************
         # -------- choropleth map ---------
@@ -358,5 +369,10 @@ def minimum_wage_map(selected_year, hover_data):
 
         return map_fig, line_fig, treemap_fig
 
-if __name__ == '__main__':
+
+
+# ************************************************************************************************************************************************************************************
+# -------- Run app ---------
+# ************************************************************************************************************************************************************************************
+if __name__=='__main__':
     app.run_server(debug=True)
